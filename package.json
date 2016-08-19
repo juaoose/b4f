@@ -1,0 +1,34 @@
+{
+  "name": "bikes4free",
+  "version": "0.0.1",
+  "description": "This projects aim to provide a platform for management of a free city bike service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juaoose/b4f.git"
+  },
+  "keywords": [
+    "bikes4free",
+    "b4f",
+    "freebikes",
+    "bike",
+    "free",
+    "for"
+  ],
+  "author": "Juan José Rodríguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juaoose/b4f/issues"
+  },
+  "homepage": "https://github.com/juaoose/b4f#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.9",
+    "morgan": "^1.7.0"
+  }
+}
